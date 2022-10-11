@@ -1,0 +1,161 @@
+
+
+
+<title>Tradeindia.com File Attachment</title>
+
+<style type="text/css">
+<!--
+.style12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.style14 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.style16 {
+color: #FF6600;
+			 font-family: Verdana, Arial, Helvetica, sans-serif;
+			 font-size: 18px;
+}
+.style18 {
+				font-size: 14px;
+				font-weight: bold;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style20 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+-->
+</style>
+<script>
+function get_fileObj(id,d)
+{
+	var i,x;  if(!d) d=document; 
+	if(!(x=d[id])&&d.all) x=d.all[id]; 
+	for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][id];
+	for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=get_fileObj(id,d.layers[i].document);
+	if(!x && document.getElementById) x=document.getElementById(id); 
+	return x;
+};
+</script>
+
+<script type="text/javascript">
+
+			function Done()
+			{
+				var theForm = document.getElementById( "composeform" );
+				theForm.FName.value = ""; // prevent infinite loop
+				theForm.submit();
+			}
+						
+				var nextHiddenIndex = 5;
+			
+				function AddFileInput()
+				{
+					get_fileObj("fileInput" + nextHiddenIndex).style.display = document.all ? "block" : "table-row";
+					nextHiddenIndex++;
+					if(nextHiddenIndex >= 10) get_fileObj("attachMoreFile").style.display = "none";
+				}
+			
+		
+		
+</script>
+<script>
+
+var attachment_code = '\
+';
+
+var fixed_rfi_112235 = window.opener.document.all ? window.opener.document.all['fixed_rfi_112235'] : window.opener.document.getElementById ? window.opener.document.getElementById('fixed_rfi_112235') : null;
+
+window.opener.document.getElementById('fixed_rfi_112235').innerHTML= attachment_code ;
+
+</script>
+
+
+<form action="http://www.aircarecoolingandexhaust.com/component/utils/attachment_popup_action.html" name="attach_form" method="post" ENCTYPE="multipart/form-data">
+<input type="hidden" name="section" value="fixed_rfi_112235">
+<input type="hidden" name="html_id" value="fixed_rfi_112235">
+<input type="hidden" name="swift_container" value="swft-temp-file-uploads">
+
+
+
+<h2 class="style16"><br>
+Add Attachments</h2>
+<h2 class="style16"><span class="style20">Click <strong>"Browse"</strong> to select a file and  then click <strong> "Attach/Delete Attachments" </strong> button to attach file. <em>You can attach files up to a total size of 14.8 MB.</em></span></h2>
+
+<table width="90%" cellpadding="4" cellspacing="0" border="0">
+
+<tr>
+<td colspan="2"  bgcolor="fffaea">
+
+<table style="margin:1em 0 1em 0">
+<tr valign="top" id="fileInput0"  >
+<td><b>Attachment 1:</b></td>
+<td><input type=file name="attach_file" size=20  ></td>
+</tr>
+<tr valign="top" id="fileInput1"  >
+<td><b>Attachment 2:</b></td>
+<td><input type=file name="attach_file1" size=20  ></td>
+</tr>
+<tr valign="top" id="fileInput2"  >
+<td><b>Attachment 3:</b></td>
+<td><input type=file name="attach_file2" size=20  ></td>
+</tr>
+<tr valign="top" id="fileInput3"  >
+<td><b>Attachment 4:</b></td>
+<td><input type=file name="attach_file3" size=20  ></td>
+</tr>
+<tr valign="top" id="fileInput4"  >
+<td><b>Attachment 5:</b></td>
+<td><input type=file name="attach_file4" size=20  ></td>
+</tr>
+
+
+<tr valign="top" id="fileInput5"  style="display:none">
+<td><b>Attachment 6:</b></td>
+<td><input type=file name="attach_file5" size=20  ></td>
+</tr>
+
+
+<tr valign="top" id="fileInput6"  style="display:none">
+<td><b>Attachment 7:</b></td>
+<td><input type=file name="attach_file6" size=20  ></td>
+</tr>
+
+
+<tr valign="top" id="fileInput7"  style="display:none">
+<td><b>Attachment 8:</b></td>
+<td><input type=file name="attach_file7" size=20  ></td>
+</tr>
+
+
+<tr valign="top" id="fileInput8"  style="display:none">
+<td><b>Attachment 9:</b></td>
+<td><input type=file name="attach_file8" size=20  ></td>
+</tr>
+
+
+<tr valign="top" id="fileInput9"  style="display:none">
+<td><b>Attachment 10:</b></td>
+<td><input type=file name="attach_file9" size=20  ></td>
+</tr>
+
+
+</table>
+
+<p id="attachMoreFile"><a href="javascript:AddFileInput()">More Attachments</a></p>
+
+</td>
+</tr>
+<tr>
+<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" name="submit" value="Attach/Delete Attachments">
+</td>
+</tr>
+</table>
+</form>
+<center>
+
+<input type="image" src="../../../img.tradeindia.com/new_website1/general/closebutton.gif" border="0" onclick="javascript:window.close()" >
+
+</center>

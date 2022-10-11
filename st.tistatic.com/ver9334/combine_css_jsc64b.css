@@ -1,0 +1,65 @@
+
+
+#search a:link{
+	color:#ffffff;
+	outline:none;
+	text-decoration:none;
+}
+.search_inputbox{
+	height:17px;
+	border:0px;
+	padding-left:5px;
+	padding-top:5px
+}
+
+.search_styled_select_outer {width:139px; height:22px;}
+.search_styled_select {
+width: 100%;
+cursor: pointer;
+margin-top:1px;
+position:relative;
+z-index:10;
+opacity:0;
+}
+
+span.search_styled_selected_text {
+background: url(../../tiimg.tistatic.com/tradeindia.com/2008/images/c.gif);
+width:136px;
+padding-left:3px;
+color:#000000;
+font-family:arial,sans-serif;
+line-height:22px;
+font-size:12px;
+height:22px;
+font-weight:normal;
+position:absolute;
+z-index:5;
+}
+
+
+
+.search_styled_select_outer2 {width:173px; height:22px;}
+
+.search_styled_select2 {
+width: 100%;
+cursor: pointer;
+margin-top:1px;
+position:relative;
+z-index:10;
+opacity:0;
+}
+
+span.search_styled_selected_text2 {
+background: url(../../tiimg.tistatic.com/tradeindia.com/2008/images/b.gif);
+width:170px;
+padding-left:3px;
+color:#000000;
+font-family:arial,sans-serif;
+line-height:22px;
+font-size:12px;
+height:22px;
+font-weight:normal;
+position:absolute;
+z-index:5;
+}
+.search_option{font:14px Arial, Helvetica, sans-serif; color:#ffffff;}

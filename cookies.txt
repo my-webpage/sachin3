@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.aircarecoolingandexhaust.com	TRUE	/	FALSE	1999999999	NEW_TI_SESSION_COOKIE	3ae2b7b7b73a78e28d93e2a61df9b82e
+www.phonon.in	TRUE	/	FALSE	1999999999	apbct_timestamp	1665487494
+www.phonon.in	TRUE	/	FALSE	1999999999	apbct_prev_referer	http%3A%2F%2Fwww.aircarecoolingandexhaust.com%2F
+www.phonon.in	TRUE	/	FALSE	1999999999	apbct_site_landing_ts	1665487494
+www.phonon.in	TRUE	/	FALSE	1999999999	apbct_page_hits	1
+www.phonon.in	TRUE	/	FALSE	1999999999	apbct_cookies_test	%257B%2522cookies_names%2522%253A%255B%2522apbct_timestamp%2522%252C%2522apbct_prev_referer%2522%252C%2522apbct_site_landing_ts%2522%252C%2522apbct_page_hits%2522%255D%252C%2522check_value%2522%253A%2522bab51014289a4d7d00248c9d1e56b3e7%2522%257D
+www.phonon.io	TRUE	/	FALSE	1999999999	apbct_urls	%7B%22www.phonon.in%2FC4C%2FcloseButton1.png%22%3A%5B1665487494%5D%7D
+www.phonon.io	TRUE	/	FALSE	1999999999	apbct_site_referer	http%3A%2F%2Fwww.aircarecoolingandexhaust.com%2F
+www.phonon.in	TRUE	/	FALSE	1999999999	ct_sfw_pass_key	f52f90499db250381acec325e25cd8170
+www.phonon.in	TRUE	/	FALSE	1999999999	SameSite	Lax
+
